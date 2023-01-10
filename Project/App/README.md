@@ -12,4 +12,4 @@ Also be sure to have the followin modules installed:
   - numpy
   - scikit-learn
 
-#### Unfortunately, the app uses the dataset ratings.csv which is 800MB in size, in order to retreive similiar users' list
+#### Unfortunately, the app uses the dataset [ratings.csv](https://mega.nz/file/pU9UXQSK#Cr9Vt09zd3vZRleRhsCp6O9OwTWZCh9Jq5KojgSEWeQ) which is 800MB in size, in order to retreive similiar users' list
