@@ -6,5 +6,4 @@ Personal repository used to store (and share) stuff regarding Data Mining
 	- Contains general foresights for the development of the project
 	
 ## `/Project` contains files for the project
-
-## The final presentation for the project can be found at this >>[LINK](https://www.canva.com/design/DAFWtWRKhMM/UDWA9lP6WG4S0slbGVXxEA/view?utm_content=DAFWtWRKhMM&utm_campaign=designshare&utm_medium=link&utm_source=pub#1)<<
+	- The final presentation for the project can be found at this >>[LINK](https://www.canva.com/design/DAFWtWRKhMM/UDWA9lP6WG4S0slbGVXxEA/view?utm_content=DAFWtWRKhMM&utm_campaign=designshare&utm_medium=link&utm_source=pub#1)<<
