@@ -2,7 +2,7 @@
 Personal repository used to store (and share) things regarding Data Mining
 
 ## [`/Presentation.pptx`](/Presentation.pptx)
- - Contains general foresights for the development of the project
+ - Contains initial foresights for the development of the project
 	
 ## [`/Project/`](/Project/)
  - Contains codebase and datasets of the project
