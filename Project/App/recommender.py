@@ -1,9 +1,13 @@
+FILE_PATH_ROOT = 'Project/App'
+# /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+# /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+# /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+# /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 import tkinter as tk
 from tkinter import ttk
 from joblib import load
 import requests
 import threading
-import os
 
 import pandas as pd
 import numpy as np
@@ -14,7 +18,7 @@ from sklearn.cluster import KMeans
 # -----------------------------------------------------------
 def loadTask():
   global ratings
-  ratings = pd.read_csv('Project/App/source/ratings.csv').drop(columns = 'Unnamed: 0')
+  ratings = pd.read_csv(FILE_PATH_ROOT + '/source/ratings.csv').drop(columns = 'Unnamed: 0')
 # -----------------------------------------------------------
 def scale(table):
   """Scale the given table using StandardScaler
@@ -151,11 +155,11 @@ thread1.start()
 
 # print(os.getcwd())
 ratings = None
-anime = pd.read_csv('Project/App/source/anime.csv', index_col='anime_id')
-clusters = pd.read_csv('Project/App/source/clusters.csv')
+anime = pd.read_csv(FILE_PATH_ROOT + '/source/anime.csv', index_col='anime_id')
+clusters = pd.read_csv(FILE_PATH_ROOT + '/source/clusters.csv')
 genres = anime.drop(columns = ['episodes', 'type','name','score','popularity','members','favorites']).columns.to_numpy()
 animeReduced = anime.drop(columns = ['name','score','type','episodes','members','favorites','popularity'])
-kmeans = load('Project/App/source/model.joblib')
+kmeans = load(FILE_PATH_ROOT + '/source/model.joblib')
 
 # ---- WINDOW ----
 window = tk.Tk()
