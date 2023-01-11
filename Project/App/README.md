@@ -13,3 +13,5 @@ Also be sure to have the followin modules installed:
   - scikit-learn
 
 #### Unfortunately, the app uses the dataset [`ratings.csv`](https://mega.nz/file/pU9UXQSK#Cr9Vt09zd3vZRleRhsCp6O9OwTWZCh9Jq5KojgSEWeQ) which is 800MB in size, in order to retreive similiar users' list
+ - As you download it, it has to be placed in `/source` folder
+ - Also remember to adjust file path in the codebase
